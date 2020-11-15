@@ -1,5 +1,3 @@
-title = "This is a simple calculator developed by an IT-Major student"
-print(title.upper())
 print("It can do simple calculations like Addition,Substration,Multiplication,Division and Modulus")
 print("------------------------------------")
 
