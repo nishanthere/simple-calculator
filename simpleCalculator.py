@@ -48,20 +48,17 @@ def main():
     print("5 for modulus")
     choice = int(input("Enter the operation: "))
     if choice == 1:
-        add=addition()
+        addition()
     elif choice == 2:
-        subs=substraction()
+        substraction()
     elif choice == 3:
-        mult=multiplication()
+        multiplication()
     elif choice == 4:
-        div=division()
+        division()
     elif choice == 5:
-        modul=modulus()
+        modulus()
     else:
         print("Error")
-
-    
-    
 
 if __name__=="__main__":
         main()
