@@ -6,13 +6,13 @@ def addition():
     for i in range(1,times+1):
         No = int(input("Enter number: "))
         total = total + No
-    print("On calculation gives:",total)
+    print("The sum of numbers is: ",total)
 
 def substraction():
-    Num1 = int(input("Enter 1st number: "))
-    Num2 = int(input("Enter 2nd number: "))
+    Num1 = int(input("Enter minuend: "))
+    Num2 = int(input("Enter subtrahend: "))
     sub = Num1 - Num2
-    print("On calculation gives: ",sub)
+    print("The difference is: ",sub)
 
 def multiplication():
     total=1
@@ -20,12 +20,12 @@ def multiplication():
     for i in range(1,times+1):
         No = int(input("Enter number: "))
         total = total * No
-    print("On calculation gives:",total)
+    print("Your answer is: ",total)
 
 
 def division():
-    Num1 = int(input("Enter 1st number: "))
-    Num2 = int(input("Enter 2nd number: "))
+    Num1 = int(input("Enter dividend: "))
+    Num2 = int(input("Enter divisor: "))
     divi= Num1 / Num2
     print("On calculation gives: ",divi)
     
@@ -34,7 +34,7 @@ def modulus():
     Num1 = int(input("Enter 1st number: "))
     Num2 = int(input("Enter 2nd number: "))
     mod = Num1 % Num2
-    print("On calculation gives: ",mod)
+    print("Your answer is: ",mod)
     
 def percentage():
     total=0
@@ -77,7 +77,7 @@ def main():
         exponentiation()
     else:
         print("Error")
-    choice1 = str(input("If you want to re-use, press 'a':"))
+    choice1 = str(input("If you want to re-use, press 'a': "))
     if choice1 == str("a"):
         main()
     else:
