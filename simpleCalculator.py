@@ -8,7 +8,7 @@ def addition():
         total = total + No
     print("The sum of numbers is: ",total)
 
-def substraction():
+def subtraction():
     Num1 = int(input("Enter minuend: "))
     Num2 = int(input("Enter subtrahend: "))
     sub = Num1 - Num2
@@ -27,7 +27,7 @@ def division():
     Num1 = int(input("Enter dividend: "))
     Num2 = int(input("Enter divisor: "))
     divi= Num1 / Num2
-    print("On calculation gives: ",divi)
+    print("Your answer is: ",divi)
     
 
 def modulus():
@@ -54,7 +54,7 @@ def exponentiation():
 def main():
     print("Select operation")
     print("1 for addition")
-    print("2 for susbtraction")
+    print("2 for subtraction")
     print("3 for multiplication")
     print("4 for division")
     print("5 for modulus")
@@ -64,7 +64,7 @@ def main():
     if choice == 1:
         addition()
     elif choice == 2:
-        substraction()
+        subtraction()
     elif choice == 3:
         multiplication()
     elif choice == 4:
